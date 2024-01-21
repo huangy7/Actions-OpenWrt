@@ -12,7 +12,7 @@
 
 sed -i "s/set system.@system\[-1\].hostname='OpenWrt'/set system.@system[-1].hostname='PureWrt'/" package/base-files/files/bin/config_generate
 
-sed -i '/<tr><td width="33%"><%:CPU usage (%)%><\/td><td id="cpuusage">-<\/td><\/tr>/a <tr><td width="33%">编译信息<\/td><td>定制By黄云，自用固件，干净卫生无广告，放心食用<\/td><\/tr>' package/lean/autocore/files/x86/index.htm
+sed -i '/<tr><td width="33%"><%:CPU usage (%)%><\/td><td id="cpuusage">-<\/td><\/tr>/a <tr><td width="33%">系统信息<\/td><td>自用系统，定制By黄云，干净卫生无广告，放心食用<\/td><\/tr>' package/lean/autocore/files/x86/index.htm
 
 
 # Modify default IP
